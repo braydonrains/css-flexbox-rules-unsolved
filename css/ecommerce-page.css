@@ -37,9 +37,14 @@ section {
 }
 
 .header-content {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
 }
 
 .logo-search {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -67,10 +72,14 @@ section {
 }
 
 .search-bar i {
+  display: flex;
+  justify-content: flex-end;
   color: #8d8ba5;
 }
 
 .options {
+  display: flex;
+  gap: 20px;
 }
 
 .option {
@@ -85,6 +94,8 @@ section {
 }
 
 .categories {
+  display: flex;
+  justify-content: center;
   background-color: #2b2d36;
   padding-top: 20px;
 }
@@ -111,6 +122,9 @@ section {
 }
 
 .view-options {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
 i.fa-th-list {
@@ -118,6 +132,8 @@ i.fa-th-list {
 }
 
 .section-control {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
 }
@@ -182,9 +198,16 @@ i.fa-th-list {
 /* GRID VIEW STYLES */
 
 .grid.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
 }
 
 .grid .product {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   width: 300px;
   padding-bottom: 30px;
 }
@@ -194,15 +217,27 @@ i.fa-th-list {
 }
 
 .grid .product-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   height: 100%;
 }
 
 .grid .product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   text-align: center;
   padding: 0 20px 30px;
 }
 
 .grid .product-action {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
   padding-top: 30px;
   border-top: 1px solid #8d8ba5;
 }
