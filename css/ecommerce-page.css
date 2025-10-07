@@ -201,7 +201,7 @@ i.fa-th-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 30px;
 }
 
 .grid .product {
@@ -245,9 +245,13 @@ i.fa-th-list {
 /* LINE VIEW STYLES */
 
 .lines.products {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .lines .product {
+  display: flex;
   padding: 20px;
 }
 
@@ -257,12 +261,21 @@ i.fa-th-list {
 }
 
 .lines .product-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
 }
 
 .lines .product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .lines .product-action {
+  display: flex;
+  gap: 30px;
 }
 
 /* LINES-ACTION VIEW */
@@ -293,7 +306,6 @@ i.fa-th-list {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  align-items: center;
   padding-left: 30px;
   padding-right: 30px;
 }
